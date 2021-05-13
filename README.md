@@ -32,5 +32,9 @@ A collection of different algorithms to extract keyframes from a video
 
 ## [Download Videos](download_videos.py)
 + This script downloads videos of the directed class from the howto100m dataset
-
-
++ This creates a text file that contains all the links associated to the files that contain the specific class
++ Then use the command below to download all the videos from the links that were added to the file
+<br/>
+```
+    wget --user htlog23 --password fb93dc3b1950d18 -i filename.txt
+```
